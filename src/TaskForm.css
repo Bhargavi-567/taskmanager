@@ -1,0 +1,14 @@
+.Form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.Form input {
+  margin-bottom: 2rem;
+  padding: 0.9rem;
+  width: 20%;
+}
+.button {
+  padding: 0.2rem;
+  width: 100px;
+}

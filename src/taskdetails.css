@@ -1,0 +1,95 @@
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;            
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 15% auto;
+    max-width: 600px;
+    background-color: #ffffff; /* Ensure a white background for contrast */
+}
+
+.details h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.details p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.backIcon {
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 1.5em;   
+    margin-left: 25%;
+    padding: 5px; 
+    transition: background-color 0.3s; 
+}
+
+.backIcon:hover {
+    background-color: #e0e0e0; /* Change background on hover */
+}
+
+@media (max-width: 768px)  {
+    .details {
+        margin: 10% 15%; 
+        padding: 15px; 
+    }
+
+    .details h1 {
+        font-size: 1.8em; 
+    }
+
+    .details p {
+        font-size: 1.1em; 
+    }
+
+    .backIcon {
+        margin-left: 8%; 
+        font-size: 1.3em; 
+        width: 35px; 
+        height: 35px;
+    }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+    .details {
+        margin: 70% 10%;
+        padding: 10px; 
+        width: auto; 
+    }
+
+    .details h1 {
+        font-size: 1.5em; 
+    }
+
+    .details p {
+        font-size: 1em; 
+    }
+
+    .backIcon {
+        margin-left: 2%; 
+        font-size: 1em; 
+        width: 20px; 
+        height: 20px;
+        top:0;
+        margin-top: 10%;
+    }
+}
+.BackButton
+{
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
